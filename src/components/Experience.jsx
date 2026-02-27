@@ -17,7 +17,7 @@ function Experience() {
             Digi Solution LLP
           </h3>
           <p className="text-sm text-gray-400">
-            Aug 2025 – Present | Pune / Remote
+            Aug 2025 – Jan 2026 | Pune / Remote
           </p>
           <ul className="text-gray-300 mt-2 space-y-1">
             <li>• Developing sports booking MERN application</li>
