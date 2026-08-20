@@ -2,44 +2,79 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
-  const projectData = [
-    {
-      title: "Sports Complex Booking",
-      description:
-        "Real-time sport ground booking platform with authentication, dashboard and admin panel.",
-      technologies: ["React", "Node.Js", "MongoDb", "Express", "TailwindCSS"],
-      github: "https://github.com/vanshita-gawande/Akhand-Web-Frontend",
-    },
-    {
-      title: "EcoTrace - Supply Chain Blockchain",
-      description:
-        "Blockchain-based product verification system with QR scanning and tamper-proof data.",
-      technologies: [
-        "React",
-        "Solidity",
-        "Node.js",
-        "MongoDb",
-        "Hardhat",
-        "Ether.Js",
-      ],
-      github: "https://github.com/vanshita-gawande/EcoTrace",
-    },
-    {
-      title: "SQL-Driven Hotel Booking Solution",
-      description:
-        "A comprehensive hotel management system for online room booking, billing and customer tracking.",
-      technologies: ["HTML", " CSS", "JavaScript", "PHP", "MySQL"],
-      github: "https://github.com/vanshita-gawande/New-Learning",
-    },
-    {
-      title: "Movie Catlog",
-      description:
-        "A sleek movie review platform and streaming UI for exploring and rating movies. ",
-      technologies: ["React", "Node.js", "Firebase", "TailwindCSS"],
-      github: "https://github.com/vanshita-gawande/movie-catlog",
-    },
-  ];
+const projectData = [
+  {
+    title: "Multi-Document RAG Chatbot",
+    description:
+      "An intelligent Retrieval-Augmented Generation (RAG) application that supports multiple document formats, processes them into embeddings, stores vectors in ChromaDB, and answers user queries with context-aware responses.",
+    technologies: [
+      "Python",
+      "LangChain",
+      "RAG",
+      "ChromaDB",
+      "Vector Database",
+      "Hugging Face",
+      "Streamlit",
+      "Groq",
+    ],
+    github: "YOUR_GITHUB_LINK",
+  },
 
+  {
+    title: "AI Research Assistant",
+    description:
+      "A research assistant powered by Retrieval-Augmented Generation that ingests research PDFs, performs semantic search using vector embeddings, and generates grounded answers using Groq LLMs with fallback reasoning.",
+    technologies: [
+      "Python",
+      "Streamlit",
+      "LangChain",
+      "RAG",
+      "ChromaDB",
+      "Hugging Face",
+      "Groq",
+    ],
+    github: "YOUR_GITHUB_LINK",
+  },
+
+  {
+    title: "Sports Complex Booking",
+    description:
+      "Real-time sports ground booking platform with authentication, dashboards, booking management, and an admin panel.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    github: "https://github.com/vanshita-gawande/Akhand-Web-Frontend",
+  },
+
+  {
+    title: "EcoTrace - Supply Chain Blockchain",
+    description:
+      "Blockchain-powered supply chain application for secure product verification with QR-based tracking and tamper-proof records.",
+    technologies: [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Solidity",
+      "Hardhat",
+      "Ethers.js",
+    ],
+    github: "https://github.com/vanshita-gawande/EcoTrace",
+  },
+
+  {
+    title: "SQL-Driven Hotel Booking System",
+    description:
+      "A hotel management system supporting room reservations, billing, customer management, and database-driven operations.",
+    technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+    github: "https://github.com/vanshita-gawande/New-Learning",
+  },
+
+  {
+    title: "Movie Catalog",
+    description:
+      "A responsive movie discovery and review platform with Firebase authentication and a modern React interface.",
+    technologies: ["React", "Firebase", "Node.js", "Tailwind CSS"],
+    github: "https://github.com/vanshita-gawande/movie-catlog",
+  },
+];
   return (
     <section
       id="projects"

@@ -29,10 +29,10 @@ function Home() {
             </span>
           </h1>
           <h2 className="text-xl md:text-2xl font-medium text-gray-300">
-            Full-Stack | MERN Developer | Blockchain Enthusiast
+            Full-Stack AI Developer
           </h2>
           <p className="text-gray-400 mt-4 text-lg">
-            I build clean, responsive and scalable web applications with a
+            I build clean, responsive and scalable AI-powered web applications with a
             strong focus on performance and good user experience.
           </p>
           {/* Buttons */}
@@ -44,7 +44,7 @@ function Home() {
               View My Work <FaArrowDown className="text-sm" />
             </a>
             <a
-              href="/Vanshita_Gawande_CV.pdf"
+              href="/Vanshita_Gawande_Resume.pdf"
               className="inline-flex items-center gap-2 px-6 py-3 bg-[#f44c22] text-white font-medium rounded-md hover:bg-[#ff916f] transition duration-300"
             >
               <FontAwesomeIcon icon={faDownload} className="text-sm" />
