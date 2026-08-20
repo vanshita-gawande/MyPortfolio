@@ -34,8 +34,8 @@ function About() {
           <p className="text-lg leading-relaxed text-gray-300 mb-5">
             I develop end-to-end AI solutions using{" "}
             <span className="text-[#ed552f] font-semibold">
-              Python, LangChain, LangGraph, FastAPI, ChromaDB, Hugging Face,
-               and React
+              Python, LangChain, LangGraph, FastAPI, ChromaDB, Hugging Face, and
+              React
             </span>
             , combining scalable backend services with intuitive user
             interfaces.
@@ -59,7 +59,7 @@ function About() {
             {
               icon: <FaRobot />,
               title: "AI Agents",
-              desc: "LangChain • LangGraph",
+              desc: "LangChain • LangGraph • Agentic • MCP",
             },
             {
               icon: <FaCode />,
