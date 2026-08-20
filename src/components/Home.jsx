@@ -29,11 +29,7 @@ function Home() {
             </span>
           </h1>
           <h2 className="text-xl md:text-2xl font-medium text-gray-300">
-<<<<<<< HEAD
             Full-Stack AI Developer
-=======
-            Full-Stack | MERN Developer | Gen Ai | Blockchain Enthusiast
->>>>>>> fd3fe14d5fcc5e733422e9b4217a526a0c9d8eaa
           </h2>
           <p className="text-gray-400 mt-4 text-lg">
             I build clean, responsive and scalable AI-powered web applications with a
