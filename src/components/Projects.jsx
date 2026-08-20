@@ -33,7 +33,8 @@ const projectData = [
       "Hugging Face",
       "Groq",
     ],
-    github: "YOUR_GITHUB_LINK",
+    github:
+      "https://github.com/vanshita-gawande/GenAi_AgenticAi/tree/main/ai-research-assitant",
   },
 
   {
