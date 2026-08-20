@@ -17,4 +17,3 @@ A personal portfolio website showcasing my work as a **Full Stack AI Application
 * JavaScript
 * Tailwind CSS
 * React Icons
-
